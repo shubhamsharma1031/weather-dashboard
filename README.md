@@ -1,5 +1,7 @@
 # India Weather Dashboard
 
+![Cover](docs/cover.png)
+
 An automated **ETL pipeline** that collects a year of daily weather data for 8 major Indian cities from a public API, cleans it with **Python (pandas)**, stores it in **MySQL**, and visualises it in an interactive **Power BI** dashboard.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
@@ -26,6 +28,8 @@ Open-Meteo API ──► extract.py ──► data/raw/*.json
 - **Metrics:** max/min/mean temperature, rain, wind, humidity, sunshine
 
 ## Dashboard
+
+![Tests passing](docs/tests_passing.png)
 
 <!-- Add your Power BI screenshots after building the dashboard: -->
 <!-- ![Overview](powerbi/screenshots/overview.png) -->
